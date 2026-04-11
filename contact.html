@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>St. Xaviers High School</title>
+    <link
+      rel="icon"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50">
+    <div id="header"></div>
+
+    <main class="w-full">
+      <!-- page header -->
+      <section class="bg-gray-800 text-white py-14">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+          <h1 class="text-3xl md:text-4xl font-bold">Contact Us</h1>
+          <p class="mt-3 text-blue-100">
+            We are here to help you. Get in touch with us.
+          </p>
+        </div>
+      </section>
+
+      <!-- contact section -->
+      <section class="py-16">
+        <div
+          class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10"
+        >
+          <!-- contact info -->
+          <div>
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">
+              School Contact Details
+            </h2>
+            <div class="space-y-4 text-gray-700">
+              <p class="flex items-start gap-3">
+                <i class="fa-solid fa-location-dot text-blue-600 mt-1"></i>
+                Ramchandrapur Bazar, Jatani, Khordha, Odisha - 752050
+              </p>
+              <p class="flex items-center gap-3">
+                <i class="fa-solid fa-phone text-blue-600"></i>
+                +91 9937085717
+              </p>
+              <p class="flex items-center gap-3">
+                <i class="fa-solid fa-envelope text-blue-600 mt-1"></i>
+                stxavierhighschoolkhordha@gmail.com
+              </p>
+            </div>
+
+            <!-- google map -->
+            <div class="mt-6 rounded-xl overflow-hidden shadow">
+              <iframe
+                class="w-full h-64 border-0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.1850191428343!2d85.69832247469202!3d20.16802051678566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19aeb90e4da7d9%3A0xc5c3eb2e9cdc7754!2sST.%20Xavier&#39;s%20High%20School%2C%20Jatni!5e0!3m2!1sen!2sin!4v1774934816245!5m2!1sen!2sin" loading="lazy"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <!-- contact form -->
+           <div class="bg-white p-6 md:p-8 rounded-2xl shadow">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h2>
+            <form class="space-y-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-600">Full Name</label>
+                <input
+                type="text"
+                required
+                class="w-full mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter your name"/>
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium text-gray-600">Email Address</label>
+                <input
+                type="email"
+                required
+                class="w-full mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter your email"/>
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium text-gray-600">Phone Number</label>
+                <input
+                type="tel"
+                required
+                class="w-full mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter your phone number"/>
+              </div>
+
+              <div>
+              <label class="block text-sm font-medium text-gray-600">
+                Message
+              </label>
+              <textarea
+                rows="4"
+                required
+                class="w-full mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Write your message here"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="w-full bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2 rounded-lg transition">
+              Submit
+            </button>
+            </form>
+           </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <div id="footer"></div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
